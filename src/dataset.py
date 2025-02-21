@@ -7,6 +7,8 @@ data = {
     "City": ["New York", "Los Angeles", "Chicago", "Houston"],
 }
 df = pd.DataFrame(data)
+print(df)
 
 
 df = df.replace("Alice", "Alice Smith")
+print(df)
